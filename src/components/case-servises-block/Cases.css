@@ -1,0 +1,259 @@
+.carousel {
+  overflow: visible !important;
+}
+
+.case-wrapper {
+  margin-bottom: 10.75em;
+}
+
+.case-table-main {
+  width: 40%;
+}
+.case-table-second {
+  width: 30%;
+}
+
+.case-table {
+  display: flex;
+  border: 2px solid;
+  background: #fff;
+}
+
+.case-table-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 5em 2.5em;
+  border-right: 2px solid;
+}
+
+.table-main-image {
+  width: 50% !important;
+  align-self: center;
+  margin-bottom: 3em;
+}
+
+.table-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75em;
+}
+
+.table-text-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9em;
+}
+
+.table-text-item > h3 {
+  text-align: left;
+  font-family: "Benzin400";
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.table-text-item > p {
+  text-align: left;
+  font-family: "CeraPro400";
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+.table-top {
+  display: flex;
+  align-items: center;
+  padding: 0 2.5em;
+  min-height: 116px;
+}
+
+.table-top > img {
+  width: 25px !important;
+}
+
+.table-top > h3 {
+  font-family: "Benzin400";
+  font-weight: 400;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+}
+
+.table-block {
+  width: 100%;
+  max-height: 271px;
+  height: 271px;
+  min-height: 271px;
+  padding: 0 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-block > img {
+  width: 82% !important;
+}
+
+.tbt {
+  border-top: 2px solid;
+}
+.tbtr {
+  border-top: 2px solid;
+  border-right: 2px solid;
+}
+
+.larr,
+.rarr {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  position: absolute;
+  z-index: 1;
+  font-family: "CeraPro400";
+  font-weight: 500;
+  font-size: 1.35rem;
+  line-height: 83%;
+}
+
+.larr {
+  bottom: -80px;
+}
+.rarr {
+  right: 0;
+  bottom: -80px;
+}
+
+.larr img,
+.rarr img {
+  width: 3.25rem !important;
+}
+/* ------------------------------ */
+/* ----------TABLETS--------- */
+/* ------------------------------ */
+@media (max-width: 1000px) and (orientation: portrait) {
+  .table-block {
+    max-height: 190px;
+    height: 190px;
+    min-height: 190px;
+    padding: 0 1em;
+  }
+  .table-text-item > h3 {
+    font-weight: 400;
+    font-size: 1.875rem;
+  }
+
+  .table-text-item > p {
+    font-size: 1.55rem;
+    line-height: 140%;
+  }
+
+  .table-main-image {
+    width: 70% !important;
+    align-self: center;
+    margin-bottom: 3em;
+  }
+  .larr,
+  .rarr {
+    gap: 0.9em;
+    font-size: 2.1rem;
+    line-height: 83%;
+  }
+
+  .larr {
+    bottom: -60px;
+  }
+  .rarr {
+    right: 0;
+    bottom: -60px;
+  }
+
+  .larr img,
+  .rarr img {
+    width: 3.55rem !important;
+  }
+}
+
+/* ------------------------------ */
+/* ----------PHONES--------- */
+/* ------------------------------ */
+@media (max-width: 700px) {
+  .table-top {
+    display: none;
+  }
+
+  .case-table {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+  }
+
+  .case-table-main {
+    padding: 0;
+    border: none;
+  }
+
+  .case-table-main,
+  .case-table-second {
+    width: 100%;
+  }
+
+  .table-main-image {
+    display: inline-block;
+    width: 50% !important;
+    align-self: center;
+    padding: 7em 0 !important;
+    margin: 0;
+  }
+
+  .table-text {
+    padding: 4em 1.5em;
+    border-top: 2px solid;
+  }
+
+  .table-text-item > h3 {
+    font-size: 2rem;
+  }
+
+  .table-text-item > p {
+    text-align: left;
+    font-family: "CeraPro300";
+    font-size: 1.6rem;
+    line-height: 100%;
+  }
+
+  .table-block {
+    max-height: 181px;
+    height: 181px;
+    min-height: 181px;
+    padding: 0 1.5em;
+  }
+
+  .table-block > img {
+    width: 70% !important;
+  }
+  .tbtr {
+    border-right: none;
+  }
+
+  .larr,
+  .rarr {
+    gap: 0.9em;
+    font-size: 1.9rem;
+    line-height: 83%;
+  }
+
+  .larr {
+    bottom: -40px;
+  }
+  .rarr {
+    right: 0;
+    bottom: -40px;
+  }
+
+  .larr img,
+  .rarr img {
+    width: 3.55rem !important;
+  }
+}

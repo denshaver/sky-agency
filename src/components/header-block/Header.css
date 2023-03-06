@@ -13,6 +13,7 @@
   max-height: 1120px;
   padding-top: 4em;
   padding-bottom: 0.5em;
+  margin-bottom: 8.625em;
 }
 
 .test-bg {
@@ -46,7 +47,7 @@ header {
 
 .header-action {
   font-weight: 500;
-  font-size: 1.075rem;
+  font-size: 1.35rem;
   position: absolute;
   right: 0;
 }
@@ -112,7 +113,7 @@ header {
 
 .header-main > span {
   font-weight: 500;
-  font-size: 1.55rem;
+  font-size: 1.35rem;
   position: absolute;
   bottom: -5em;
 }
@@ -123,31 +124,8 @@ header {
   border-bottom: 2px solid #ffffff;
 }
 
-/* MIDDLE DESKTOPS */
-@media (max-width: 1710px) {
-  html {
-    font-size: 14px;
-  }
-}
-/* SMALL DESKTOPS */
-@media (max-width: 1280px) {
-  html {
-    font-size: 12px;
-  }
-}
-
-/* VERY-SMALL DESKTOPS
-@media (max-width: 700px) {
-  html {
-    font-size: 6px;
-  }
-} */
-
 /* TABLETS */
 @media (max-width: 1000px) and (orientation: portrait) {
-  html {
-    font-size: 8px;
-  }
   .header-wrapper {
     justify-content: unset;
   }
@@ -192,6 +170,7 @@ header {
   }
   .header-main > span {
     text-align: left;
+    font-size: 1.85rem;
   }
 }
 
@@ -240,5 +219,6 @@ header {
   }
   .header-main > span {
     text-align: left;
+    font-size: 1.6rem;
   }
 }
