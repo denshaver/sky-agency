@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Benzin400";
+  src: url(./fonts/Benzin-Regular.ttf);
+}
+@font-face {
+  font-family: "Benzin600";
+  src: url(./fonts/Benzin-Semibold.ttf);
+}
+@font-face {
+  font-family: "Benzin700";
+  src: url(./fonts/Benzin-Bold.ttf);
+}
+@font-face {
+  font-family: "CeraPro300";
+  src: url(./fonts/CeraPro-Light.ttf);
+}
+@font-face {
+  font-family: "CeraPro400";
+  src: url(./fonts/CeraPro-Regular.ttf);
+}
+@font-face {
+  font-family: "CeraPro700";
+  src: url(./fonts/CeraPro-Bold.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "CeraPro400", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1720px;
+}
+
+.cp {
+  cursor: pointer;
 }
