@@ -1,0 +1,180 @@
+.callback-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url(../../img/callback/bg-callback.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 13.3rem;
+}
+
+.callback-wrapper {
+  height: 70vh;
+  max-height: 813px;
+  display: flex;
+  width: 53%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0 10.9rem;
+}
+
+.callback-wrapper > h2 {
+  font-family: "Benzin600";
+  font-size: 6.3rem;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 3.8rem;
+}
+
+.callback-wrapper form {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5.6rem;
+  display: flex;
+}
+
+.callback-wrapper input {
+  background: none;
+  border: none;
+  outline: none;
+
+  font-family: "CeraPro400";
+  font-size: 2rem;
+  line-height: 125%;
+  color: #ffffff;
+  flex-grow: 1;
+  padding: 0 1.6rem;
+}
+
+.callback-wrapper input::placeholder {
+  font-family: "CeraPro400";
+  font-size: 2rem;
+  line-height: 125%;
+  color: #ffffff;
+}
+
+.callback-wrapper > form > img {
+  cursor: pointer;
+  width: 7.5%;
+}
+
+/* SMALL DESKTOPS */
+
+@media (max-width: 1450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* TABLETS */
+@media (max-width: 1000px) and (orientation: portrait) {
+  html {
+    font-size: 62.5%;
+  }
+  .callback-container {
+    background: linear-gradient(#650915, #710916);
+    margin-bottom: 7.2rem;
+  }
+  .callback-wrapper {
+    background-image: url(../../img/callback/bg-callback-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    height: 752px;
+    max-height: 752px;
+    width: 90%;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 6.8rem;
+  }
+  .callback-wrapper > h2 {
+    font-size: 3.5rem;
+    line-height: 114%;
+    margin-bottom: 5.2rem;
+  }
+
+  .callback-wrapper form {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2.8rem;
+    display: flex;
+  }
+
+  .callback-wrapper input {
+    font-size: 1.4rem;
+    line-height: 114%;
+    flex-grow: 1;
+    padding: 0;
+  }
+
+  .callback-wrapper input::placeholder {
+    font-size: 1.4rem;
+    line-height: 114%;
+  }
+
+  .callback-wrapper > form > img {
+    display: none;
+  }
+}
+
+/* PHONES */
+
+@media (max-width: 720px) {
+  html {
+    font-size: 62.5%;
+  }
+  .callback-container {
+    background: none;
+    background-image: url(../../img/callback/bg-callback-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 7.2rem;
+  }
+  .callback-wrapper {
+    height: 752px;
+    max-height: 752px;
+    width: 90%;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 6.8rem;
+    background: none;
+  }
+  .callback-wrapper > h2 {
+    font-size: 3.5rem;
+    line-height: 114%;
+    margin-bottom: 5.2rem;
+  }
+
+  .callback-wrapper form {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2.8rem;
+    display: flex;
+  }
+
+  .callback-wrapper input {
+    font-size: 1.4rem;
+    line-height: 114%;
+    flex-grow: 1;
+    padding: 0;
+  }
+
+  .callback-wrapper input::placeholder {
+    font-size: 1.4rem;
+    line-height: 114%;
+  }
+
+  .callback-wrapper > form > img {
+    display: none;
+  }
+}
+
+/* SMALL PHONES */
+@media (max-width: 330px) {
+  html {
+    font-size: 50%;
+  }
+}

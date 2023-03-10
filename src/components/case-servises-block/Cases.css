@@ -1,9 +1,36 @@
+.case-services-bg {
+  background-image: url(../../img/case-services/lines-cases-services.svg);
+  background-repeat: no-repeat;
+  background-position: 270px 60px;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 .carousel {
   overflow: visible !important;
 }
 
 .case-wrapper {
-  margin-bottom: 10.75em;
+  margin-bottom: 27.3rem;
+}
+
+.case-wrapper > span {
+  display: inline-block;
+  font-family: "CeraPro400";
+  font-size: 2.5rem;
+  line-height: 188%;
+  color: #a3a3a3;
+  margin-bottom: 4.7rem;
+}
+
+.case-wrapper > h1 {
+  font-family: "Benzin600";
+  font-size: 10rem;
+  line-height: 90%;
+  text-transform: uppercase;
+  color: #050505;
+  margin-bottom: 7.2rem;
 }
 
 .case-table-main {
@@ -25,7 +52,7 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  padding: 5em 2.5em;
+  padding: 8.3em 4.2em;
   border-right: 2px solid;
 }
 
@@ -38,34 +65,33 @@
 .table-text {
   display: flex;
   flex-direction: column;
-  gap: 1.75em;
+  gap: 2.6em;
 }
 
 .table-text-item {
   display: flex;
   flex-direction: column;
-  gap: 0.9em;
+  gap: 1.3em;
 }
 
 .table-text-item > h3 {
   text-align: left;
   font-family: "Benzin400";
-  font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 
 .table-text-item > p {
   text-align: left;
   font-family: "CeraPro400";
-  font-size: 1.2rem;
-  line-height: 25px;
+  font-size: 2rem;
+  line-height: 125%;
 }
 
 .table-top {
   display: flex;
   align-items: center;
-  padding: 0 2.5em;
+  padding: 0 4.4em;
   min-height: 116px;
 }
 
@@ -76,7 +102,8 @@
 .table-top > h3 {
   font-family: "Benzin400";
   font-weight: 400;
-  font-size: 1.9rem;
+  font-size: 3.5rem;
+  line-height: 125%;
   text-transform: uppercase;
 }
 
@@ -85,7 +112,7 @@
   max-height: 271px;
   height: 271px;
   min-height: 271px;
-  padding: 0 2.5em;
+  padding: 0 4.4em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,12 +135,12 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 2em;
+  gap: 1.5em;
   position: absolute;
   z-index: 1;
   font-family: "CeraPro400";
   font-weight: 500;
-  font-size: 1.35rem;
+  font-size: 2.4rem;
   line-height: 83%;
 }
 
@@ -127,38 +154,102 @@
 
 .larr img,
 .rarr img {
-  width: 3.25rem !important;
+  width: 5.8rem !important;
 }
+/* ------------------------------ */
+/* --------SMALL DESKTOPS-------*/
+/* ------------------------------ */
+@media (max-width: 1450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 /* ------------------------------ */
 /* ----------TABLETS--------- */
 /* ------------------------------ */
 @media (max-width: 1000px) and (orientation: portrait) {
-  .table-block {
-    max-height: 190px;
-    height: 190px;
-    min-height: 190px;
-    padding: 0 1em;
+  html {
+    font-size: 62.5%;
   }
-  .table-text-item > h3 {
-    font-weight: 400;
-    font-size: 1.875rem;
+  .case-wrapper {
+    margin-bottom: 10.3rem;
+  }
+  .case-wrapper > span {
+    font-size: 1.6rem;
+    margin-bottom: 1.4rem;
   }
 
-  .table-text-item > p {
-    font-size: 1.55rem;
-    line-height: 140%;
+  .case-wrapper > h1 {
+    font-size: 5rem;
+    margin-bottom: 3.3rem;
+  }
+
+  .table-top {
+    display: none;
+  }
+
+  .case-table {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+  }
+
+  .case-table-main {
+    padding: 0;
+    border: none;
+  }
+
+  .case-table-main,
+  .case-table-second {
+    width: 100%;
   }
 
   .table-main-image {
-    width: 70% !important;
+    display: inline-block;
+    width: 35% !important;
     align-self: center;
-    margin-bottom: 3em;
+    padding: 4em 0 !important;
+    margin: 0;
   }
+
+  .table-text {
+    padding: 3.3rem 1.75em;
+    border-top: 2px solid;
+  }
+
+  .table-text-item > h3 {
+    font-size: 2rem;
+    line-height: 125%;
+  }
+
+  .table-text-item > p {
+    text-align: left;
+    font-family: "CeraPro300";
+    font-size: 1.6rem;
+    line-height: 114%;
+  }
+
+  .table-block {
+    max-height: 200px;
+    height: 200px;
+    min-height: 200px;
+    padding: 0 10rem;
+  }
+
+  .table-block > img {
+    width: 70% !important;
+  }
+  .tbtr {
+    border-right: none;
+  }
+
   .larr,
   .rarr {
-    gap: 0.9em;
-    font-size: 2.1rem;
-    line-height: 83%;
+    font-weight: 500;
+    gap: 1.2em;
+    font-size: 2rem;
+    line-height: 133%;
   }
 
   .larr {
@@ -171,7 +262,7 @@
 
   .larr img,
   .rarr img {
-    width: 3.55rem !important;
+    width: 4rem !important;
   }
 }
 
@@ -179,6 +270,22 @@
 /* ----------PHONES--------- */
 /* ------------------------------ */
 @media (max-width: 700px) {
+  html {
+    font-size: 62.5%;
+  }
+  .case-wrapper {
+    margin-bottom: 10.3rem;
+  }
+  .case-wrapper > span {
+    font-size: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .case-wrapper > h1 {
+    font-size: 5rem;
+    margin-bottom: 3.3rem;
+  }
+
   .table-top {
     display: none;
   }
@@ -203,31 +310,32 @@
     display: inline-block;
     width: 50% !important;
     align-self: center;
-    padding: 7em 0 !important;
+    padding: 6em 0 !important;
     margin: 0;
   }
 
   .table-text {
-    padding: 4em 1.5em;
+    padding: 3.3rem 1.5em;
     border-top: 2px solid;
   }
 
   .table-text-item > h3 {
     font-size: 2rem;
+    line-height: 125%;
   }
 
   .table-text-item > p {
     text-align: left;
     font-family: "CeraPro300";
-    font-size: 1.6rem;
-    line-height: 100%;
+    font-size: 1.4rem;
+    line-height: 114%;
   }
 
   .table-block {
     max-height: 181px;
     height: 181px;
     min-height: 181px;
-    padding: 0 1.5em;
+    padding: 0 0.5rem;
   }
 
   .table-block > img {
@@ -239,21 +347,28 @@
 
   .larr,
   .rarr {
-    gap: 0.9em;
-    font-size: 1.9rem;
-    line-height: 83%;
+    font-weight: 500;
+    gap: 1.2em;
+    font-size: 1.5rem;
+    line-height: 133%;
   }
 
   .larr {
-    bottom: -40px;
+    bottom: -50px;
   }
   .rarr {
     right: 0;
-    bottom: -40px;
+    bottom: -50px;
   }
 
   .larr img,
   .rarr img {
-    width: 3.55rem !important;
+    width: 2.2rem !important;
+  }
+}
+
+@media (max-width: 330px) {
+  html {
+    font-size: 50%;
   }
 }

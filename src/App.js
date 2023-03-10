@@ -1,11 +1,13 @@
 import Header from "./components/header-block/Header";
-import Cases from "./components/case-servises-block/Cases";
+import CaseServices from "./components/case-servises-block/CaseServices";
+import Callback from "./components/callback-block/Callback";
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <Cases />
+      <CaseServices />
+      <Callback />
     </div>
   );
 }

@@ -25,6 +25,8 @@ const Cases = () => {
   };
   return (
     <div className="wrapper case-wrapper">
+      <span>Портфолио</span>
+      <h1>Кейсы</h1>
       <Carousel
         onChange={handleChange}
         infiniteLoop={true}
