@@ -1,0 +1,200 @@
+.steps-container {
+  padding-bottom: 17.7rem;
+  padding-left: 10.8rem;
+  padding-top: 13.3rem;
+  min-height: 100vh;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.steps-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.steps-wrapper > h1 {
+  font-family: "Benzin600";
+  font-size: 10rem;
+  line-height: 101%;
+  text-align: right;
+  text-transform: uppercase;
+  margin-bottom: 4.8rem;
+}
+.steps-wrapper > span {
+  display: inline-block;
+  font-family: "CeraPro400";
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 188%;
+  text-align: right;
+  color: #a3a3a3;
+  margin-bottom: 3.3rem;
+}
+
+.steps-btns-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 7.5rem;
+  justify-content: flex-end;
+  margin-bottom: 10.7rem;
+  /* transform: translateY(-300px); */
+}
+
+.steps-btns-wrapper > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* STEM ITEMS */
+
+.step {
+  max-width: 90%;
+}
+
+.step > h3 {
+  font-family: "Benzin400";
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.step-line {
+  margin-top: 5.3rem;
+  height: 4px;
+  width: 100%;
+  background: #000;
+  transform: scaleX(2);
+}
+
+.step > img {
+  margin-top: -3.5px;
+  margin-bottom: 5.3rem;
+  width: 37px;
+  height: 37px;
+}
+
+.step > h4 {
+  font-family: "CeraPro400";
+  font-weight: 500;
+  font-size: 4.2rem;
+  line-height: 112%;
+  text-transform: uppercase;
+  margin-bottom: 2.2rem;
+}
+
+.step > p {
+  font-family: "CeraPro400";
+  font-size: 2rem;
+  line-height: 125%;
+}
+
+/* -------------------------- */
+/* -------MEDIA-QUERIES-------- */
+/* -------------------------- */
+
+/* SMALLER DEKTOPS */
+@media (max-width: 1450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* TABLETS */
+@media (max-width: 1000px) and (orientation: portrait) {
+  html {
+    font-size: 62.5%;
+  }
+  .steps-container {
+    padding-bottom: 12rem;
+    padding-left: 3.5rem;
+    padding-top: 7.2rem;
+  }
+  .steps-wrapper {
+    width: 92.5%;
+  }
+  .steps-wrapper > h1 {
+    font-size: 5.1rem;
+    line-height: 114%;
+    margin-bottom: 1.3rem;
+  }
+  .steps-wrapper > span {
+    font-size: 2.1rem;
+    line-height: 143%;
+    margin-bottom: 1.15rem;
+  }
+  .steps-btns-wrapper {
+    gap: 3.3rem;
+    margin-bottom: 5.4rem;
+  }
+
+  .steps-btns-wrapper > button > img {
+    width: 5rem;
+  }
+}
+
+/* PHONES */
+@media (max-width: 720px) {
+  html {
+    font-size: 62.5%;
+  }
+  .steps-container {
+    padding-bottom: 12rem;
+    padding-left: 1.5rem;
+    padding-top: 7.2rem;
+  }
+  .steps-wrapper {
+    width: 92.5%;
+  }
+  .steps-wrapper > h1 {
+    font-size: 3rem;
+    line-height: 114%;
+    margin-bottom: 1.3rem;
+  }
+  .steps-wrapper > span {
+    font-size: 1.4rem;
+    line-height: 143%;
+    margin-bottom: 1.15rem;
+  }
+  .steps-btns-wrapper {
+    gap: 3.3rem;
+    margin-bottom: 5.4rem;
+  }
+
+  .steps-btns-wrapper > button > img {
+    width: 3.6rem;
+  }
+
+  .step > h3 {
+    font-size: 4rem;
+  }
+  .step-line {
+    margin-top: 5.3rem;
+    height: 2px;
+  }
+  .step > img {
+    margin-top: -3.5px;
+    margin-bottom: 5.5rem;
+  }
+
+  .step > h4 {
+    font-size: 3.5rem;
+    line-height: 134%;
+    margin-bottom: 2rem;
+  }
+
+  .step > p {
+    font-size: 1.6rem;
+    line-height: 156%;
+  }
+}
+
+/* SMALLER PHONES */
+@media (max-width: 330px) {
+  html {
+    font-size: 50%;
+  }
+}

@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  margin-bottom: 13.3rem;
 }
 
 .callback-wrapper {
@@ -75,7 +74,7 @@
   }
   .callback-container {
     background: linear-gradient(#650915, #710916);
-    margin-bottom: 7.2rem;
+    width: 101%;
   }
   .callback-wrapper {
     background-image: url(../../img/callback/bg-callback-mobile.jpg);
@@ -131,7 +130,6 @@
     background-image: url(../../img/callback/bg-callback-mobile.jpg);
     background-size: cover;
     background-position: center;
-    margin-bottom: 7.2rem;
   }
   .callback-wrapper {
     height: 752px;
