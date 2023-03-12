@@ -1,0 +1,243 @@
+.reviews-container {
+  background: #000 url(../../img/reviews/reviews-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  max-width: 1920px;
+  height: 650px;
+  max-height: 650px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 14.3rem;
+
+  color: white;
+  overflow: hidden;
+}
+
+.reviews-wrapper {
+  padding-top: 7.5%;
+  padding-left: 18%;
+  padding-right: 15.5%;
+  padding-bottom: 6.5%;
+}
+
+.review-item {
+  display: flex;
+  align-items: center;
+}
+
+.review-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-name > img {
+  margin-bottom: 2.8rem;
+  width: 100%;
+}
+
+.review-name > h5 {
+  font-family: "CeraPro400";
+  font-weight: 500;
+  font-size: 3.7rem;
+  line-height: 151%;
+  margin-bottom: 0.8rem;
+}
+
+.review-name > span {
+  display: inline-block;
+  font-family: "CeraPro300";
+  font-size: 2.1rem;
+  line-height: 120%;
+  text-align: center;
+}
+.review-divider {
+  margin-left: 5.6rem;
+  margin-right: 8.5rem;
+  width: 4%;
+  height: 377px;
+  background-image: url(../../img/reviews/divider.svg);
+  border-right: 1px solid white;
+}
+
+.review-text > p {
+  font-family: "CeraPro400";
+  font-size: 3rem;
+  line-height: 160%;
+  margin-bottom: 5rem;
+}
+
+.review-buttons {
+  display: flex;
+  gap: 6.7rem;
+}
+
+.review-buttons > button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.review-buttons img {
+  width: 90%;
+}
+/* ----------------------- */
+/* -----MEDIA QUERIES----- */
+/* ----------------------- */
+
+@media (max-width: 1450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) and (orientation: portrait) {
+  html {
+    font-size: 62.5%;
+  }
+  .reviews-container {
+    background: #000 url(../../img/reviews/reviews-bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    height: 700px;
+    max-height: 700px;
+    margin-bottom: 5.7rem;
+  }
+
+  .reviews-wrapper {
+    padding: 0;
+    padding-top: 8.8rem;
+  }
+  .review-item {
+    flex-direction: column;
+  }
+  .review-name > img {
+    margin-bottom: 2.2rem;
+    width: 50%;
+  }
+
+  .review-name > h5 {
+    font-size: 2rem;
+    line-height: 100%;
+    margin-bottom: 1.3rem;
+  }
+
+  .review-name > span {
+    font-size: 2rem;
+    line-height: 100%;
+  }
+  .review-divider {
+    width: 100%;
+    height: 40.5px;
+    margin: 0;
+    background-image: url(../../img/reviews/divider-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-right: none;
+    margin-top: 2.4rem;
+    margin-bottom: 3.35rem;
+  }
+
+  .review-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-text > p {
+    width: 55%;
+    font-size: 2rem;
+    line-height: 280%;
+    margin-bottom: 3.5rem;
+    text-align: center;
+  }
+  .review-buttons {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .review-buttons img {
+    width: 65%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 62.5%;
+  }
+  .reviews-container {
+    background: #000 url(../../img/reviews/reviews-bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    height: 100vh;
+    max-height: 700px;
+    margin-bottom: 5.7rem;
+  }
+
+  .reviews-wrapper {
+    padding: 0;
+    padding-top: 8.8rem;
+  }
+  .review-item {
+    flex-direction: column;
+  }
+  .review-name > img {
+    margin-bottom: 2.2rem;
+    width: 50%;
+  }
+
+  .review-name > h5 {
+    font-size: 2rem;
+    line-height: 100%;
+    margin-bottom: 1.3rem;
+  }
+
+  .review-name > span {
+    font-size: 2rem;
+    line-height: 100%;
+  }
+  .review-divider {
+    width: 100%;
+    height: 40.5px;
+    margin: 0;
+    background-image: url(../../img/reviews/divider-mobile.svg);
+    background-size: contain;
+    border-right: none;
+    margin-top: 2.4rem;
+    margin-bottom: 3.35rem;
+  }
+
+  .review-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-text > p {
+    font-size: 2rem;
+    line-height: 280%;
+    margin-bottom: 3.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .review-buttons {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .review-buttons img {
+    width: 65%;
+  }
+}
+
+@media (max-width: 330px) {
+  html {
+    font-size: 50%;
+  }
+}
