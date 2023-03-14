@@ -5,6 +5,7 @@ import Steps from "./components/steps-block/Steps";
 import Reviews from "./components/reviews-block/Reviews";
 import Brands from "./components/brands-block/Brands";
 import Crew from "./components/crew-block/Crew";
+import Form from "./components/form-block/Form";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Reviews />
       <Brands />
       <Crew />
+      <Form />
     </div>
   );
 }
