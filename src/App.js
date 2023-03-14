@@ -4,6 +4,7 @@ import Callback from "./components/callback-block/Callback";
 import Steps from "./components/steps-block/Steps";
 import Reviews from "./components/reviews-block/Reviews";
 import Brands from "./components/brands-block/Brands";
+import Crew from "./components/crew-block/Crew";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Steps />
       <Reviews />
       <Brands />
+      <Crew />
     </div>
   );
 }

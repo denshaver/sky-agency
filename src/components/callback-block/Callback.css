@@ -74,7 +74,7 @@
   }
   .callback-container {
     background: linear-gradient(#650915, #710916);
-    width: 101%;
+    width: 100%;
   }
   .callback-wrapper {
     background-image: url(../../img/callback/bg-callback-mobile.jpg);

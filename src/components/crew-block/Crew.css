@@ -1,0 +1,128 @@
+.crew-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+  padding-left: 10rem;
+  margin-bottom: 21rem;
+}
+
+.crew-wrapper span {
+  font-family: "CeraPro400";
+  font-size: 2.5rem;
+  line-height: 188%;
+  color: #a3a3a3;
+}
+
+.crew-wrapper > h2 {
+  font-family: "Benzin600";
+  font-size: 10rem;
+  text-transform: uppercase;
+  margin-bottom: 7.2rem;
+}
+
+.crew {
+  display: flex;
+  gap: 4rem;
+  overflow: scroll;
+}
+
+.crew::-webkit-scrollbar {
+  display: none;
+}
+
+.crew-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.crew-item > span {
+  margin-top: 4.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.crew-item > h4 {
+  font-family: "Benzin600";
+  font-size: 4rem;
+  line-height: 112%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) and (orientation: portrait) {
+  html {
+    font-size: 62.5%;
+  }
+  .crew-wrapper {
+    width: 92.5%;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 3.3rem;
+  }
+
+  .crew-wrapper span {
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 143%;
+    margin-bottom: 1rem;
+  }
+
+  .crew-wrapper > h2 {
+    font-size: 5rem;
+    line-height: 114%;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 62.5%;
+  }
+  .crew-wrapper {
+    width: 92.5%;
+
+    padding: 0;
+    margin-bottom: 3.3rem;
+  }
+
+  .crew-wrapper span {
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 143%;
+    margin-bottom: 1rem;
+  }
+
+  .crew-wrapper > h2 {
+    font-size: 3.5rem;
+    line-height: 114%;
+    margin-bottom: 5.9rem;
+  }
+
+  .crew {
+    gap: 3rem;
+  }
+
+  .crew-item > img {
+    width: 94vw;
+  }
+
+  .crew-item > span {
+    margin-top: 3.4rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .crew-item > h4 {
+    font-size: 3rem;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 330px) {
+  html {
+    font-size: 50%;
+  }
+}
