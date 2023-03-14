@@ -3,6 +3,7 @@ import CaseServices from "./components/case-servises-block/CaseServices";
 import Callback from "./components/callback-block/Callback";
 import Steps from "./components/steps-block/Steps";
 import Reviews from "./components/reviews-block/Reviews";
+import Brands from "./components/brands-block/Brands";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Callback />
       <Steps />
       <Reviews />
+      <Brands />
     </div>
   );
 }
