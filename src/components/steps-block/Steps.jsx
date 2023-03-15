@@ -52,11 +52,11 @@ const Steps = () => {
     });
 
     swiperRef.current = swiper;
-  }, []);
+  }, [isMobileScreen]);
 
   // RENDER
   return (
-    <div className="steps-container">
+    <div className="steps-container" id="steps-block">
       <div className="wrapper steps-wrapper">
         <span>Как мы работаем</span>
         <h1>Этапы работы</h1>

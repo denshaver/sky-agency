@@ -6,11 +6,15 @@ import Reviews from "./components/reviews-block/Reviews";
 import Brands from "./components/brands-block/Brands";
 import Crew from "./components/crew-block/Crew";
 import Form from "./components/form-block/Form";
+import SideNav from "./components/sidenav-block/SideNav";
+import { useState } from "react";
 
 function App() {
+  const [sideNavWidth, setSideNavWidth] = useState(false);
   return (
     <div className="container">
-      <Header />
+      <SideNav sideNavWidth={sideNavWidth} setSideNavWidth={setSideNavWidth} />
+      <Header setSideNavWidth={setSideNavWidth} />
       <CaseServices />
       <Callback />
       <Steps />

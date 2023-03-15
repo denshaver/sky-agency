@@ -2,7 +2,7 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="wrapper services-wrapper">
+    <div className="wrapper services-wrapper" id="services-block">
       <span>Услуги</span>
       <h1>
         Как мы можем <br /> вам помочь?

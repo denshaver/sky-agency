@@ -1,13 +1,14 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ setSideNavWidth }) => {
   return (
     <div className="header-container">
       <div className="header-block-bg">
         <div className="wrapper header-wrapper">
           <header>
             <img
+              onClick={() => setSideNavWidth(true)}
               src="/img/header/burger.svg"
               alt="Menu"
               className="header-burger cp"

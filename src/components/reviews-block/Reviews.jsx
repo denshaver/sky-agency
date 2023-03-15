@@ -21,7 +21,7 @@ const Reviews = () => {
     reviewSwiperRef.current = swiper2;
   }, []);
   return (
-    <div className="reviews-container">
+    <div className="reviews-container" id="reviews-block">
       <div className="wrapper reviews-wrapper">
         <div className="swiper-contain">
           <div className="swiper-wrapper">

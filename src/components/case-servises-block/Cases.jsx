@@ -24,7 +24,7 @@ const Cases = () => {
     }
   };
   return (
-    <div className="wrapper case-wrapper">
+    <div className="wrapper case-wrapper" id="case-block">
       <span>Портфолио</span>
       <h1>Кейсы</h1>
       <Carousel

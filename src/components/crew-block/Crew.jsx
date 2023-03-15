@@ -48,7 +48,7 @@ const persons = [
 
 const Crew = () => {
   return (
-    <div className="crew-wrapper">
+    <div className="crew-wrapper" id="crew-block">
       <span>Команда</span>
       <h2>Команда Sky</h2>
       <div className="crew">

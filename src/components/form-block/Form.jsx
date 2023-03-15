@@ -17,7 +17,7 @@ const Form = () => {
   };
 
   return (
-    <div className="wrapper form-wrapper">
+    <div className="wrapper form-wrapper" id="form-block">
       <div className="form">
         <span>Оффер</span>
         <h2>
