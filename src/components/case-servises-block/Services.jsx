@@ -1,6 +1,9 @@
+import AnimatedImage from "./AnimatedImage";
 import "./Services.css";
+import { useMediaQuery } from "@mui/material";
 
 const Services = () => {
+  const isMobileScreen = useMediaQuery("(max-width: 1000px)");
   return (
     <div className="wrapper services-wrapper" id="services-block">
       <span>Услуги</span>
@@ -19,10 +22,12 @@ const Services = () => {
               Сайт-Лендинг, Имиджевые посты
             </p>
           </div>
-          <img
+
+          <AnimatedImage
             src="/img/services/image1.png"
+            cName="service-image-first"
             alt="service"
-            className="service-image-first"
+            duration={600}
           />
         </div>
         <div className="service-item">
@@ -36,10 +41,12 @@ const Services = () => {
               посты и Сторисы, общение с подписчиками, отчетность
             </p>
           </div>
-          <img
+
+          <AnimatedImage
             src="/img/services/image2.png"
+            cName="service-image-second"
             alt="service"
-            className="service-image-second"
+            duration={700}
           />
         </div>
         <div className="service-item">
@@ -51,11 +58,20 @@ const Services = () => {
               реклама у блогеров и в СМИ
             </p>
           </div>
-          <img
-            src="/img/services/image3.png"
-            alt="service"
-            className="service-image-third"
-          />
+          {isMobileScreen ? (
+            <img
+              src="/img/services/image3.png"
+              alt="service"
+              className="service-image-third"
+            />
+          ) : (
+            <AnimatedImage
+              src="/img/services/image3.png"
+              cName="service-image-third"
+              alt="service"
+              duration={800}
+            />
+          )}
         </div>
       </div>
     </div>
