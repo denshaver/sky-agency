@@ -24,6 +24,7 @@
   background-image: url(../../img/header/lines-header2.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;

@@ -8,6 +8,7 @@ import Crew from "./components/crew-block/Crew";
 import Form from "./components/form-block/Form";
 import SideNav from "./components/sidenav-block/SideNav";
 import { useState } from "react";
+import Footer from "./components/footer-block/Footer";
 
 function App() {
   const [sideNavWidth, setSideNavWidth] = useState(false);
@@ -22,6 +23,7 @@ function App() {
       <Brands />
       <Crew />
       <Form />
+      <Footer />
     </div>
   );
 }
