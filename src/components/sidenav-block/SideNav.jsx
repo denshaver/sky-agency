@@ -11,7 +11,7 @@ const SideNav = ({ sideNavWidth, setSideNavWidth }) => {
         width: sideNavWidth ? navWidth : "0%",
       }}
     >
-      <span class="closebtn" onClick={() => setSideNavWidth(false)}>
+      <span className="closebtn" onClick={() => setSideNavWidth(false)}>
         &times;
       </span>
       <a
