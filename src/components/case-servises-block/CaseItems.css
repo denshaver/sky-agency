@@ -47,6 +47,13 @@
   width: 50% !important;
 }
 
+.logo-two img {
+  width: 40% !important;
+}
+.logo-three img {
+  width: 30% !important;
+}
+
 /* TYPOGRAPHY */
 
 .case-main-text > h3 {
@@ -94,6 +101,15 @@
   padding: 5rem 4.7rem;
   flex-grow: 1;
   width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.table-block-single {
+  padding: 5rem 4.7rem;
+  flex-grow: 1;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -193,6 +209,12 @@
   .case-main-image img {
     width: 40% !important;
   }
+  .logo-two img {
+    width: 17% !important;
+  }
+  .logo-three img {
+    width: 15% !important;
+  }
 
   .table-head-row {
     display: none;
@@ -202,7 +224,7 @@
     flex-direction: row;
   }
   .two-height {
-    height: unset;
+    height: 50%;
   }
   .three-height {
     height: 33.3%;
@@ -307,6 +329,12 @@
   .case-main-image img {
     width: 60% !important;
   }
+  .logo-two img {
+    width: 32% !important;
+  }
+  .logo-three img {
+    width: 30% !important;
+  }
 
   .table-head-row {
     display: none;
@@ -316,11 +344,20 @@
     flex-direction: column;
   }
   .two-height {
-    height: unset;
+    height: 50%;
   }
   .three-height {
     height: 33.3%;
   }
+
+  .five-height {
+    height: 40%;
+  }
+
+  .single {
+    height: 20%;
+  }
+
   .case-main-text > h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -334,6 +371,7 @@
   .table-block {
     padding: 3rem 4rem;
     width: 100%;
+    height: 50%;
 
     display: flex;
     flex-direction: column;
