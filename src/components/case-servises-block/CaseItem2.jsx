@@ -72,7 +72,7 @@ const CaseItem2 = () => {
             </div>
             <div className="table-block-bottom">
               <span>44</span>
-              <img src="/img/cases/dollar.svg" alt="dollar" />
+              <img src="/img/cases/dollar.png" alt="dollar" />
             </div>
           </div>
           <div className="table-block bt bb">
@@ -103,7 +103,7 @@ const CaseItem2 = () => {
             </div>
             <div className="table-block-bottom">
               <span>0.15</span>
-              <img src="/img/cases/dollar.svg" alt="dollars" />
+              <img src="/img/cases/dollar.png" alt="dollars" />
             </div>
           </div>
         </div>

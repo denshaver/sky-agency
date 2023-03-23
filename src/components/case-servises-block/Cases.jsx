@@ -15,11 +15,11 @@ const Cases = () => {
     setCurSlide(selectedIndex);
   }
   const showSlideInd = (side) => {
-    if (curSlide === 2 && side === "right") {
+    if (curSlide === 5 && side === "right") {
       return 1;
     }
     if (curSlide === 0 && side === "left") {
-      return 3;
+      return 6;
     }
     if (side === "left") {
       return curSlide;
