@@ -1,8 +1,8 @@
-import CaseItem from "./CaseItem";
 import "./Cases.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { useState } from "react";
+import CaseItem1 from "./CaseItem1";
 
 const Cases = () => {
   const [curSlide, setCurSlide] = useState(0);
@@ -56,9 +56,9 @@ const Cases = () => {
           );
         }}
       >
-        <CaseItem />
-        <CaseItem />
-        <CaseItem />
+        <CaseItem1 />
+        <CaseItem1 />
+        <CaseItem1 />
       </Carousel>
     </div>
   );

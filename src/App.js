@@ -19,7 +19,7 @@ function App() {
       <CaseServices />
       <Callback />
       <Steps />
-      <Reviews />
+      {/* <Reviews /> */}
       <Brands />
       <Crew />
       <Form />

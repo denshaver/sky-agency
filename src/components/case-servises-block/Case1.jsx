@@ -1,10 +1,10 @@
-const CaseItem = () => {
+const Case1 = () => {
   return (
     <div className="case-table">
       {/* CASE TABLE MAIN */}
       <div className="case-table-main">
         <div className="table-main-image">
-          <img src="/img/cases/company-logo1.svg" alt="logo1" />
+          <img src="/img/cases/case1/case1-logo.svg" alt="logo1" />
         </div>
         <div className="table-text">
           <div className="table-text-item">
@@ -37,37 +37,41 @@ const CaseItem = () => {
         </div>
       </div>
       {/* CASE TABLE SECONDARY */}
-      <div className="case-table-second">
-        <div className="table-top">
-          <h3>Результаты</h3>
-        </div>
-        <div className="table-block tbtr">
-          <img src="/img/cases/image 1.png" alt="1" />
-        </div>
-        <div className="table-block tbtr">
-          <img src="/img/cases/image 4.png" alt="1" />
-        </div>
-        <div className="table-block tbtr">
-          <img src="/img/cases/image 6.png" alt="1" />
-        </div>
-      </div>
-      {/* CASE TABLE SECONDARY */}
-      <div className="case-table-second">
-        <div className="table-top">
-          <img src="/img/cases/fb.svg" alt="facebook" />
-        </div>
-        <div className="table-block tbt">
-          <img src="/img/cases/image 3.png" alt="1" />
-        </div>
-        <div className="table-block tbt">
-          <img src="/img/cases/image 5.png" alt="1" />
-        </div>
-        <div className="table-block tbt">
-          <img src="/img/cases/image 7.png" alt="1" />
+      <div className="case-table-info-wrapper">
+        <div className="case-table-secondary-wrapper">
+          <div className="case-table-second">
+            <div className="table-top">
+              <h3>Результаты</h3>
+            </div>
+            <div className="table-block tbtr">
+              <img src="/img/cases/case1/image1.png" alt="1" />
+            </div>
+            <div className="table-block tbtr">
+              <img src="/img/cases/case1/image3.png" alt="1" />
+            </div>
+            <div className="table-block tbtr">
+              <img src="/img/cases/case1/image5.png" alt="1" />
+            </div>
+          </div>
+          {/* CASE TABLE SECONDARY */}
+          <div className="case-table-second">
+            <div className="table-top table-top-data">
+              <span>на период 01.11 - 30.11</span>
+            </div>
+            <div className="table-block tbt">
+              <img src="/img/cases/case1/image2.png" alt="1" />
+            </div>
+            <div className="table-block tbt">
+              <img src="/img/cases/case1/image4.png" alt="1" />
+            </div>
+            <div className="table-block tbt">
+              <img src="/img/cases/case1/image6.png" alt="1" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default CaseItem;
+export default Case1;

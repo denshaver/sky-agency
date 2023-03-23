@@ -1,0 +1,395 @@
+/* LAYOUT */
+
+.case-table {
+  width: 100%;
+  min-height: 811px;
+  height: 80vh;
+  max-height: 911px;
+
+  border: 2px solid;
+  background: #fff;
+
+  display: flex;
+}
+
+.case-table-main {
+  width: 40%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 2px solid;
+}
+
+.case-table-secondary {
+  width: 60%;
+}
+
+.table-head-row {
+  display: flex;
+  align-items: center;
+  padding: 3.8rem 4rem;
+  border-bottom: 2px solid;
+  height: 13%;
+}
+
+.table-block-row {
+  display: flex;
+}
+
+.case-main-image {
+  width: 100%;
+  padding: 4rem 0;
+  align-self: center;
+}
+
+.case-main-image img {
+  width: 50% !important;
+}
+
+/* TYPOGRAPHY */
+
+.case-main-text > h3 {
+  text-align: left;
+  font-family: "Benzin400";
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 1.3rem;
+}
+.case-main-text > p {
+  text-align: left;
+  font-family: "CeraPro400";
+  font-size: 2rem;
+  line-height: 125%;
+  margin-bottom: 2.5rem;
+}
+
+.table-head-row h4 {
+  font-family: "Benzin400";
+  font-weight: 300;
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  text-align: left !important;
+}
+.table-head-row img {
+  width: 25px !important;
+}
+
+.table-head-block {
+  width: 50%;
+}
+
+.table-block-row {
+  display: flex;
+}
+
+.two-height {
+  height: 43.5%;
+}
+.three-height {
+  height: 29%;
+}
+
+.table-block {
+  padding: 5rem 4.7rem;
+  flex-grow: 1;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.table-block-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.table-block-top > h4 {
+  font-family: "Benzin400";
+  font-size: 3.1rem;
+  text-transform: uppercase;
+  line-height: 90%;
+  text-align: left !important;
+}
+
+.table-block-top > span {
+  font-family: "CeraPro400";
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: left !important;
+}
+
+.table-block-bottom {
+  display: flex;
+  align-items: flex-start;
+  align-self: flex-end;
+  gap: 0.75rem;
+}
+
+.table-block-bottom > span {
+  font-family: "Benzin700";
+  font-size: 6.5rem;
+  text-transform: uppercase;
+  text-align: right !important;
+  line-height: 100%;
+}
+
+.table-block-bottom > img {
+  width: 25px !important;
+}
+
+/* BORDERS STYLES */
+.br {
+  border-right: 2px solid;
+}
+
+.bt {
+  border-top: 2px solid;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) and (orientation: portrait) {
+  html {
+    font-size: 62.5%;
+  }
+  .case-table {
+    min-height: 1095px;
+    height: unset;
+    max-height: 1195px;
+    flex-direction: column;
+  }
+
+  .case-table-main {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    border-right: 0;
+    border-bottom: 2px solid #000;
+  }
+
+  .case-main-text {
+    padding: 3.3rem 1.4rem;
+  }
+
+  .case-table-secondary {
+    width: 100%;
+    height: 900px;
+    flex-grow: 1;
+  }
+
+  .case-main-image {
+    padding: 5rem 0;
+    border-bottom: 2px solid #000;
+  }
+  .case-main-image img {
+    width: 40% !important;
+  }
+
+  .table-head-row {
+    display: none;
+  }
+
+  .table-block-row {
+    flex-direction: row;
+  }
+  .two-height {
+    height: unset;
+  }
+  .three-height {
+    height: 33.3%;
+  }
+  .case-main-text > h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .case-main-text > p {
+    font-size: 1.4rem;
+    line-height: 114%;
+    margin-bottom: 2.5rem;
+  }
+  /* TABLE BLOCK */
+  .table-block {
+    padding: 3rem 4rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .table-block-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .table-block-top > h4 {
+    font-size: 2.2rem;
+    line-height: 105%;
+  }
+
+  .table-block-top > span {
+    font-family: "CeraPro400";
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: left !important;
+  }
+
+  .table-block-bottom {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-end;
+    gap: 0.75rem;
+  }
+
+  .table-block-bottom > span {
+    font-family: "Benzin700";
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    text-align: right !important;
+    line-height: 100%;
+  }
+
+  .table-block-bottom > img {
+    width: 20px !important;
+  }
+  .br {
+    border-right: 2px solid;
+  }
+
+  .bt {
+    border-top: 2px solid;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 62.5%;
+  }
+  .case-table {
+    min-height: 1695px;
+    height: unset;
+    max-height: 1625px;
+    flex-direction: column;
+  }
+
+  .case-table-main {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    border-right: 0;
+    border-bottom: 2px solid #000;
+  }
+
+  .case-main-text {
+    padding: 3.3rem 1.4rem;
+  }
+
+  .case-table-secondary {
+    width: 100%;
+    height: 900px;
+    flex-grow: 1;
+  }
+
+  .case-main-image {
+    padding: 5rem 0;
+    border-bottom: 2px solid #000;
+  }
+  .case-main-image img {
+    width: 60% !important;
+  }
+
+  .table-head-row {
+    display: none;
+  }
+
+  .table-block-row {
+    flex-direction: column;
+  }
+  .two-height {
+    height: unset;
+  }
+  .three-height {
+    height: 33.3%;
+  }
+  .case-main-text > h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .case-main-text > p {
+    font-size: 1.4rem;
+    line-height: 114%;
+    margin-bottom: 2.5rem;
+  }
+  /* TABLE BLOCK */
+  .table-block {
+    padding: 3rem 4rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .table-block-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .table-block-top > h4 {
+    font-size: 2.2rem;
+    line-height: 105%;
+  }
+
+  .table-block-top > span {
+    font-family: "CeraPro400";
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: left !important;
+  }
+
+  .table-block-bottom {
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-end;
+    gap: 0.75rem;
+  }
+
+  .table-block-bottom > span {
+    font-family: "Benzin700";
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    text-align: right !important;
+    line-height: 100%;
+  }
+
+  .table-block-bottom > img {
+    width: 20px !important;
+  }
+  .br {
+    border-right: 0;
+  }
+
+  .bt {
+    border-top: 0;
+  }
+  .bb {
+    border-bottom: 2px solid;
+  }
+}
+
+@media (max-width: 330px) {
+  html {
+    font-size: 50%;
+  }
+}
