@@ -27,10 +27,11 @@ const Form = () => {
           Свяжитесь с нами и мы обсудим как эффективно <br /> привлекать больше
           клиентов в ваш бизнес
         </p>
-        <form action="">
+        <form action="../src/telegram.php" method="POST">
           <input
             type="text"
             id="userName"
+            name="user-name"
             placeholder="Введите Имя и Фамилию"
             value={formData.userName}
             onChange={(e) => onChangeForm(e)}
@@ -39,6 +40,7 @@ const Form = () => {
           <input
             type="text"
             id="userPhone"
+            name="user-phone"
             value={formData.userPhone}
             placeholder="Введите номер телефона"
             onChange={(e) => onChangeForm(e)}
