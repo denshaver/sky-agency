@@ -27,7 +27,7 @@ const Form = () => {
           Свяжитесь с нами и мы обсудим как эффективно <br /> привлекать больше
           клиентов в ваш бизнес
         </p>
-        <form action="../src/telegram.php" method="POST">
+        <form action="./telegram.php" method="POST">
           <input
             type="text"
             id="userName"
@@ -46,7 +46,7 @@ const Form = () => {
             onChange={(e) => onChangeForm(e)}
             className="form-input"
           />
-          <input type="button" value={"Отправить"} className="form-btn" />
+          <input type="submit" value={"Отправить"} className="form-btn" />
         </form>
       </div>
       <div className="form-images">
