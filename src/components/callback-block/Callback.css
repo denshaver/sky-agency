@@ -34,6 +34,12 @@
   display: flex;
 }
 
+.callback-wrapper form button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .callback-wrapper input {
   background: none;
   border: none;
