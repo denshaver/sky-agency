@@ -114,9 +114,9 @@
     line-height: 114%;
   }
 
-  .callback-wrapper > form > img {
+  /* .callback-wrapper > form > img {
     display: none;
-  }
+  } */
 }
 
 /* PHONES */
@@ -165,9 +165,9 @@
     line-height: 114%;
   }
 
-  .callback-wrapper > form > img {
+  /* .callback-wrapper > form > img {
     display: none;
-  }
+  } */
 }
 
 /* SMALL PHONES */
