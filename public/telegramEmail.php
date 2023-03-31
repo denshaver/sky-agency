@@ -17,8 +17,8 @@ foreach($arr as $key => $value) {
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 
 if ($sendToTelegram) {
-  echo '<script>alert("Спасибо. Ваша заявка принята, наш менеджер свяжется с вами в скором времени")</script>';
   header('Location: index.html');
+  echo '<script>alert("Спасибо. Ваша заявка принята, наш менеджер свяжется с вами в скором времени")</script>';
 } else {
   echo "Error";
 }

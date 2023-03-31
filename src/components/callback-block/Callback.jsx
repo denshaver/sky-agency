@@ -11,7 +11,9 @@ const Callback = () => {
             name="user-email"
             placeholder="Введите свою почту"
           />{" "}
-          <img src="/img/callback/arrow.svg" alt="submit" />
+          <input type="submit">
+            <img src="/img/callback/arrow.svg" alt="submit" />
+          </input>
         </form>
       </div>
     </div>
