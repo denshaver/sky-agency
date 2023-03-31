@@ -4,7 +4,7 @@ import { useState } from "react";
 const Form = () => {
   const [formData, setFormData] = useState({
     userName: "",
-    userPhone: "+988",
+    userPhone: "+998",
   });
 
   const onChangeForm = (event) => {
@@ -38,7 +38,7 @@ const Form = () => {
             className="form-input"
           />
           <input
-            type="text"
+            type="tel"
             id="userPhone"
             name="user-phone"
             value={formData.userPhone}
