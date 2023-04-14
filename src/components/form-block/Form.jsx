@@ -36,6 +36,7 @@ const Form = () => {
             value={formData.userName}
             onChange={(e) => onChangeForm(e)}
             className="form-input"
+            required
           />
           <input
             type="tel"
@@ -45,6 +46,7 @@ const Form = () => {
             placeholder="Введите номер телефона"
             onChange={(e) => onChangeForm(e)}
             className="form-input"
+            required
           />
           <input type="submit" value={"Отправить"} className="form-btn" />
         </form>

@@ -8,7 +8,9 @@ const Footer = () => {
           <div className="footer-left">
             <div className="footer-links">
               <img src="/img/footer/fb.svg" alt="smm" className="cp" />
-              <img src="/img/footer/inst.svg" alt="smm" className="cp" />
+              <a href="https://www.instagram.com/skyagencyuz/">
+                <img src="/img/footer/inst.svg" alt="smm" className="cp" />
+              </a>
               <img src="/img/footer/tw.svg" alt="smm" className="cp" />
               <img src="/img/footer/gh.svg" alt="smm" className="cp" />
               <img src="/img/footer/dr.svg" alt="smm" className="cp" />

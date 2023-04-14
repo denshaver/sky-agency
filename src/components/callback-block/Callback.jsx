@@ -10,6 +10,7 @@ const Callback = () => {
             type="email"
             name="user-email"
             placeholder="Введите свою почту"
+            required
           />{" "}
           <button type="submit">
             <img src="/img/callback/arrow.svg" alt="submit" />
