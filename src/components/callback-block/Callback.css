@@ -34,6 +34,12 @@
   display: flex;
 }
 
+.callback-wrapper form button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .callback-wrapper input {
   background: none;
   border: none;
@@ -114,9 +120,9 @@
     line-height: 114%;
   }
 
-  .callback-wrapper > form > img {
+  /* .callback-wrapper > form > img {
     display: none;
-  }
+  } */
 }
 
 /* PHONES */
@@ -165,9 +171,9 @@
     line-height: 114%;
   }
 
-  .callback-wrapper > form > img {
+  /* .callback-wrapper > form > img {
     display: none;
-  }
+  } */
 }
 
 /* SMALL PHONES */

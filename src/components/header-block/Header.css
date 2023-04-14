@@ -116,11 +116,13 @@ header {
   text-transform: uppercase;
 }
 
-.header-main > span {
+.header-main > a {
   font-weight: 500;
   font-size: 2.4rem;
   position: absolute;
   bottom: -5em;
+  color: white;
+  text-decoration: none;
 }
 
 .header-scroll-tab {

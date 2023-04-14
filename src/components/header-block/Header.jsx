@@ -36,7 +36,13 @@ const Header = ({ setSideNavWidth }) => {
               <h2>
                 и получи стратегию <br /> по продвижению на 2023 год
               </h2>
-              <span className="cp">Ответить на вопросы</span>
+              <a
+                href="https://skyagencyquiz.uz/"
+                className="cp"
+                target="_blank"
+              >
+                Ответить на вопросы
+              </a>
             </div>
             <div className="header-main-right">
               <img src="/img/header/prev.svg" alt="prev" />

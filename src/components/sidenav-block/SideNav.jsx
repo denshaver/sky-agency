@@ -35,13 +35,13 @@ const SideNav = ({ sideNavWidth, setSideNavWidth }) => {
       >
         Этапы
       </a>
-      <a
+      {/* <a
         href="#reviews-block"
         className="nav-link"
         onClick={() => setSideNavWidth(false)}
       >
         Отзывы
-      </a>
+      </a> */}
       <a
         href="#crew-block"
         className="nav-link"

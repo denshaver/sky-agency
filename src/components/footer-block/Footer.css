@@ -22,6 +22,16 @@ footer {
   margin-bottom: 3.8rem;
 }
 
+.footer-links a {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.footer-links img {
+  height: 30px;
+}
+
 .footer-left > p {
   font-family: "CeraPro400";
   font-size: 2rem;

@@ -4,7 +4,7 @@ import { useState } from "react";
 const Form = () => {
   const [formData, setFormData] = useState({
     userName: "",
-    userPhone: "+988",
+    userPhone: "+998",
   });
 
   const onChangeForm = (event) => {
@@ -27,24 +27,28 @@ const Form = () => {
           Свяжитесь с нами и мы обсудим как эффективно <br /> привлекать больше
           клиентов в ваш бизнес
         </p>
-        <form action="">
+        <form action="./telegram.php" method="POST">
           <input
             type="text"
             id="userName"
+            name="user-name"
             placeholder="Введите Имя и Фамилию"
             value={formData.userName}
             onChange={(e) => onChangeForm(e)}
             className="form-input"
+            required
           />
           <input
-            type="text"
+            type="tel"
             id="userPhone"
+            name="user-phone"
             value={formData.userPhone}
             placeholder="Введите номер телефона"
             onChange={(e) => onChangeForm(e)}
             className="form-input"
+            required
           />
-          <input type="button" value={"Отправить"} className="form-btn" />
+          <input type="submit" value={"Отправить"} className="form-btn" />
         </form>
       </div>
       <div className="form-images">
