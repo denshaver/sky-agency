@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/sky-agency/static/css/main.8a7b806e.css",
+    "main.js": "/sky-agency/static/js/main.1e312588.js",
+    "static/media/bg-callback.jpg": "/sky-agency/static/media/bg-callback.c6585e448a625dcfeafe.jpg",
+    "static/media/CeraPro-Light.ttf": "/sky-agency/static/media/CeraPro-Light.cc15c1c569b6aee012ce.ttf",
+    "static/media/CeraPro-Regular.ttf": "/sky-agency/static/media/CeraPro-Regular.41e4685b30b1ca172404.ttf",
+    "static/media/CeraPro-Bold.ttf": "/sky-agency/static/media/CeraPro-Bold.acce31fe54d79d00fd49.ttf",
+    "static/media/bg-callback-mobile.jpg": "/sky-agency/static/media/bg-callback-mobile.e42cb925ae1949bb0367.jpg",
+    "static/media/Benzin-Bold.ttf": "/sky-agency/static/media/Benzin-Bold.ee46ca6eb94975086187.ttf",
+    "static/media/Benzin-Semibold.ttf": "/sky-agency/static/media/Benzin-Semibold.bf910624152861d601e6.ttf",
+    "static/media/Benzin-Regular.ttf": "/sky-agency/static/media/Benzin-Regular.936629a35c20bb3f4768.ttf",
+    "static/media/lines-header-mobile2.svg": "/sky-agency/static/media/lines-header-mobile2.941222f4d5937126aada.svg",
+    "static/media/lines-header2.svg": "/sky-agency/static/media/lines-header2.06a8a0822663d7b494e9.svg",
+    "static/media/lines-cases-services.svg": "/sky-agency/static/media/lines-cases-services.a2608f5bceaa6caeb903.svg",
+    "index.html": "/sky-agency/index.html",
+    "static/media/btn-arrow.svg": "/sky-agency/static/media/btn-arrow.76d6d798140b749cffa9.svg",
+    "static/media/btn-arrow-mobile.svg": "/sky-agency/static/media/btn-arrow-mobile.6781e6ab6a2ecbaf4025.svg",
+    "main.8a7b806e.css.map": "/sky-agency/static/css/main.8a7b806e.css.map",
+    "main.1e312588.js.map": "/sky-agency/static/js/main.1e312588.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a7b806e.css",
+    "static/js/main.1e312588.js"
+  ]
+}
