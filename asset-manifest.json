@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sky-agency/static/css/main.8a7b806e.css",
-    "main.js": "/sky-agency/static/js/main.cb5023fb.js",
+    "main.js": "/sky-agency/static/js/main.104949fc.js",
     "static/media/bg-callback.jpg": "/sky-agency/static/media/bg-callback.c6585e448a625dcfeafe.jpg",
     "static/media/CeraPro-Light.ttf": "/sky-agency/static/media/CeraPro-Light.cc15c1c569b6aee012ce.ttf",
     "static/media/CeraPro-Regular.ttf": "/sky-agency/static/media/CeraPro-Regular.41e4685b30b1ca172404.ttf",
@@ -17,10 +17,10 @@
     "static/media/btn-arrow.svg": "/sky-agency/static/media/btn-arrow.76d6d798140b749cffa9.svg",
     "static/media/btn-arrow-mobile.svg": "/sky-agency/static/media/btn-arrow-mobile.6781e6ab6a2ecbaf4025.svg",
     "main.8a7b806e.css.map": "/sky-agency/static/css/main.8a7b806e.css.map",
-    "main.cb5023fb.js.map": "/sky-agency/static/js/main.cb5023fb.js.map"
+    "main.104949fc.js.map": "/sky-agency/static/js/main.104949fc.js.map"
   },
   "entrypoints": [
     "static/css/main.8a7b806e.css",
-    "static/js/main.cb5023fb.js"
+    "static/js/main.104949fc.js"
   ]
 }
