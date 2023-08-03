@@ -10,7 +10,7 @@ const Form = () => {
   const onChangeForm = (event) => {
     setFormData((prevFormData) => {
       return {
-        ..prevFormData,
+        ...prevFormData,
         [event.target.id]: event.target.value,
       };
     });
