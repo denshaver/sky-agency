@@ -11,7 +11,7 @@ const ReviewItem = ({ reviewSwiperRef }) => {
   return (
     <div className="review-item">
       <div className="review-name">
-        <img src="/img/reviews/logo-review.png" alt="logo" />
+        <img src="./img/reviews/logo-review.png" alt="logo" />
         <h5>Махфуза</h5>
         <span>Менеджер “Taksim”</span>
       </div>
@@ -23,10 +23,10 @@ const ReviewItem = ({ reviewSwiperRef }) => {
         </p>
         <div className="review-buttons">
           <button onClick={goPrevReview} className="swiper-button-prev">
-            <img src="/img/reviews/left.svg" alt="prev" />
+            <img src="./img/reviews/left.svg" alt="prev" />
           </button>
           <button onClick={goNextReview} className="swiper-button-next">
-            <img src="/img/reviews/right.svg" alt="next" />
+            <img src="./img/reviews/right.svg" alt="next" />
           </button>
         </div>
       </div>

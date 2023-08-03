@@ -22,13 +22,13 @@ const Header = ({ setSideNavWidth }) => {
           </header>
           <div className="header-main-container">
             <div className="header-main-left">
-              <img src="/img/header/socialmedia.svg" alt="social media" />
+              <img src="./img/header/socialmedia.svg" alt="social media" />
               <div className="header-main-divider"></div>
               <div className="social-media">
-                <img src="/img/header/fb.svg" alt="Facebook" className="cp" />
-                <img src="/img/header/tw.svg" alt="Twitter" className="cp" />
-                <img src="/img/header/gh.svg" alt="GitHub" className="cp" />
-                <img src="/img/header/dr.svg" alt="Drrrible" className="cp" />
+                <img src="./img/header/fb.svg" alt="Facebook" className="cp" />
+                <img src="./img/header/tw.svg" alt="Twitter" className="cp" />
+                <img src="./img/header/gh.svg" alt="GitHub" className="cp" />
+                <img src="./img/header/dr.svg" alt="Drrrible" className="cp" />
               </div>
             </div>
             <div className="header-main">
@@ -45,9 +45,9 @@ const Header = ({ setSideNavWidth }) => {
               </a>
             </div>
             <div className="header-main-right">
-              <img src="/img/header/prev.svg" alt="prev" />
+              <img src="./img/header/prev.svg" alt="prev" />
               <div className="header-main-divider"></div>
-              <img src="/img/header/next.svg" alt="next" />
+              <img src="./img/header/next.svg" alt="next" />
             </div>
           </div>
           <div className="header-scroll-tab"></div>

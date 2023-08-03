@@ -53,12 +53,12 @@ const Form = () => {
       </div>
       <div className="form-images">
         <div className="form-images-block">
-          <img src="/img/form/image-top1.png" alt="form" />
-          <img src="/img/form/image-top2.png" alt="form" />
+          <img src="./img/form/image-top1.png" alt="form" />
+          <img src="./img/form/image-top2.png" alt="form" />
         </div>
         <div className="form-images-block">
-          <img src="/img/form/image-bottom1.png" alt="form" />
-          <img src="/img/form/image-bottom2.png" alt="form" />
+          <img src="./img/form/image-bottom1.png" alt="form" />
+          <img src="./img/form/image-bottom2.png" alt="form" />
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ const Brands = () => {
         ].map((i, ind) => (
           <img
             key={ind}
-            src={`/img/brands/image${i}.svg`}
+            src={`./img/brands/image${i}.svg`}
             alt="Brand Logo"
             className={`brand-image${i}`}
           />

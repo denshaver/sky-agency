@@ -44,7 +44,7 @@ const Cases = () => {
               className={hasPrev ? "absolute larr" : "hidden larr"}
               onClick={clickHandler}
             >
-              <img src="/img/cases/arr-left.svg" alt="ArrLeft" /> Кейс{" "}
+              <img src="./img/cases/arr-left.svg" alt="ArrLeft" /> Кейс{" "}
               {showSlideInd("left")}
             </span>
           );
@@ -56,7 +56,7 @@ const Cases = () => {
               onClick={clickHandler}
             >
               Кейс {showSlideInd("right")}{" "}
-              <img src="/img/cases/arr-right.svg" alt="ArrRight" />
+              <img src="./img/cases/arr-right.svg" alt="ArrRight" />
             </span>
           );
         }}

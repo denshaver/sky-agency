@@ -6,7 +6,7 @@ const CaseItem3 = () => {
       {/* MAIN CASE PART */}
       <div className="case-table-main">
         <div className="case-main-image logo-three">
-          <img src="/img/cases/case3.svg" alt="Company logo" />
+          <img src="./img/cases/case3.svg" alt="Company logo" />
         </div>
         <div className="case-main-text">
           <h3>О компании</h3>
@@ -36,7 +36,7 @@ const CaseItem3 = () => {
             <h4>Результаты</h4>
           </div>
           <div className="table-head-block">
-            <img src="/img/cases/fb.svg" alt="Facebook Link" />
+            <img src="./img/cases/fb.svg" alt="Facebook Link" />
           </div>
         </div>
         {/* TABLE ROW */}
@@ -48,7 +48,7 @@ const CaseItem3 = () => {
             </div>
             <div className="table-block-bottom">
               <span>18.328</span>
-              <img src="/img/cases/user.svg" alt="Users" />
+              <img src="./img/cases/user.svg" alt="Users" />
             </div>
           </div>
           <div className="table-block bb">
@@ -58,7 +58,7 @@ const CaseItem3 = () => {
             </div>
             <div className="table-block-bottom">
               <span>10.836</span>
-              <img src="/img/cases/user.svg" alt="Users" />
+              <img src="./img/cases/user.svg" alt="Users" />
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ const CaseItem3 = () => {
             </div>
             <div className="table-block-bottom">
               <span>2.116</span>
-              <img src="/img/cases/user.svg" alt="user" />
+              <img src="./img/cases/user.svg" alt="user" />
             </div>
           </div>
           <div className="table-block bt">
@@ -80,7 +80,7 @@ const CaseItem3 = () => {
             </div>
             <div className="table-block-bottom">
               <span>94</span>
-              <img src="/img/cases/play.svg" alt="plays" />
+              <img src="./img/cases/play.svg" alt="plays" />
             </div>
           </div>
         </div>

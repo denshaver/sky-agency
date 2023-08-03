@@ -67,10 +67,10 @@ const Steps = () => {
           {/* BUTTONS CUSTOM */}
           <div className="wrapper steps-btns-wrapper">
             <button onClick={goPrev} className="swiper-button-prev">
-              <img src="/img/steps/left.svg" alt="prev" />
+              <img src="./img/steps/left.svg" alt="prev" />
             </button>
             <button onClick={goNext} className="swiper-button-next">
-              <img src="/img/steps/right.svg" alt="next" />
+              <img src="./img/steps/right.svg" alt="next" />
             </button>
           </div>
           {/* SWIPER MAIN */}

@@ -6,7 +6,7 @@ const CaseItem5 = () => {
       {/* MAIN CASE PART */}
       <div className="case-table-main">
         <div className="case-main-image logo-two">
-          <img src="/img/cases/case5.svg" alt="Company logo" />
+          <img src="./img/cases/case5.svg" alt="Company logo" />
         </div>
         <div className="case-main-text">
           <h3>О компании</h3>
@@ -39,7 +39,7 @@ const CaseItem5 = () => {
             <h4>Результаты</h4>
           </div>
           <div className="table-head-block">
-            <img src="/img/cases/fb.svg" alt="Facebook Link" />
+            <img src="./img/cases/fb.svg" alt="Facebook Link" />
           </div>
         </div>
         {/* TABLE ROW */}
@@ -51,7 +51,7 @@ const CaseItem5 = () => {
             </div>
             <div className="table-block-bottom">
               <span>29.7K</span>
-              <img src="/img/cases/user.svg" alt="Users" />
+              <img src="./img/cases/user.svg" alt="Users" />
             </div>
           </div>
           <div className="table-block bb">
@@ -60,7 +60,7 @@ const CaseItem5 = () => {
             </div>
             <div className="table-block-bottom">
               <span>31.6K</span>
-              <img src="/img/cases/user.svg" alt="Users" />
+              <img src="./img/cases/user.svg" alt="Users" />
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ const CaseItem5 = () => {
             </div>
             <div className="table-block-bottom">
               <span>686</span>
-              <img src="/img/cases/user.svg" alt="user" />
+              <img src="./img/cases/user.svg" alt="user" />
             </div>
           </div>
           <div className="table-block bt bb">
@@ -81,7 +81,7 @@ const CaseItem5 = () => {
             </div>
             <div className="table-block-bottom">
               <span>18.7K</span>
-              <img src="/img/cases/user.svg" alt="users" />
+              <img src="./img/cases/user.svg" alt="users" />
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ const CaseItem5 = () => {
             </div>
             <div className="table-block-bottom">
               <span>16.2К</span>
-              <img src="/img/cases/user.svg" alt="user" />
+              <img src="./img/cases/user.svg" alt="user" />
             </div>
           </div>
         </div>

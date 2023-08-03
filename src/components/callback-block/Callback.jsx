@@ -13,11 +13,11 @@ const Callback = () => {
             required
           />{" "}
           <button type="submit">
-            <img src="/img/callback/arrow.svg" alt="submit" />
+            <img src="./img/callback/arrow.svg" alt="submit" />
           </button>
           {/* <input
             type="submit"
-            value={'<img src="/img/callback/arrow.svg" alt="submit" />'}
+            value={'<img src="./img/callback/arrow.svg" alt="submit" />'}
           /> */}
         </form>
       </div>

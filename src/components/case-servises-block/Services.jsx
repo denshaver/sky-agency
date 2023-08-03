@@ -24,7 +24,7 @@ const Services = () => {
           </div>
 
           <AnimatedImage
-            src="/img/services/image1.png"
+            src="./img/services/image1.png"
             cName="service-image-first"
             alt="service"
             duration={600}
@@ -43,7 +43,7 @@ const Services = () => {
           </div>
 
           <AnimatedImage
-            src="/img/services/image2.png"
+            src="./img/services/image2.png"
             cName="service-image-second"
             alt="service"
             duration={700}
@@ -60,13 +60,13 @@ const Services = () => {
           </div>
           {isMobileScreen ? (
             <img
-              src="/img/services/image3.png"
+              src="./img/services/image3.png"
               alt="service"
               className="service-image-third"
             />
           ) : (
             <AnimatedImage
-              src="/img/services/image3.png"
+              src="./img/services/image3.png"
               cName="service-image-third"
               alt="service"
               duration={800}
