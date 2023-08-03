@@ -21,7 +21,7 @@
 }
 
 .header-block-bg {
-  background-image: url(../.../img/header/lines-header2.svg);
+  background-image: url(../../img/header/lines-header2.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -153,7 +153,7 @@ header {
     margin-bottom: 7.5em;
   }
   .header-block-bg {
-    background: #000000 url(../.../img/header/lines-header-mobile2.svg);
+    background: #000000 url(../../img/header/lines-header-mobile2.svg);
     background-repeat: no-repeat;
     background-size: 100%;
   }

@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  background-image: url(../.../img/callback/bg-callback.jpg);
+  background-image: url(../../img/callback/bg-callback.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -83,7 +83,7 @@
     width: 100%;
   }
   .callback-wrapper {
-    background-image: url(../.../img/callback/bg-callback-mobile.jpg);
+    background-image: url(../../img/callback/bg-callback-mobile.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -133,7 +133,7 @@
   }
   .callback-container {
     background: none;
-    background-image: url(../.../img/callback/bg-callback-mobile.jpg);
+    background-image: url(../../img/callback/bg-callback-mobile.jpg);
     background-size: cover;
     background-position: center;
   }
