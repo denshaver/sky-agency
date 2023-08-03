@@ -9,12 +9,12 @@ const Header = ({ setSideNavWidth }) => {
           <header>
             <img
               onClick={() => setSideNavWidth(true)}
-              src="/img/header/burger.svg"
+              src="./img/header/burger.svg"
               alt="Menu"
               className="header-burger cp"
             />
             <img
-              src="/img/header/logo.svg"
+              src="./img/header/logo.svg"
               alt="Logo"
               className="header-logo"
             />
