@@ -37,7 +37,7 @@ const Header = ({ setSideNavWidth }) => {
                 и получи стратегию <br /> по продвижению на 2023 год
               </h2>
               <a
-                href="https://skyagencyquiz.uz/"
+                href="https://mrqz.to/6391e42dfb29d4004f1ffb2a"
                 className="cp"
                 target="_blank"
               >
