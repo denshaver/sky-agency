@@ -1,6 +1,20 @@
+import { useEffect, useState } from "react";
 import "./Callback.css";
 
 const Callback = () => {
+  const [isSend, setIsSend] = useState(true);
+  const [input, setInput] = useState("");
+  const dayNow = new Date().getDate();
+
+  useEffect(() => {
+    const lastDay = localStorage.getItem("lastSentForm");
+    if (dayNow == lastDay) setIsSend(false);
+  }, [isSend]);
+
+  function handleSendForm() {
+    localStorage.setItem("lastSentForm", dayNow);
+  }
+
   return (
     <div className="callback-container">
       <div className="wrapper callback-wrapper">
@@ -9,10 +23,16 @@ const Callback = () => {
           <input
             type="email"
             name="user-email"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
             placeholder="Введите свою почту"
             required
           />{" "}
-          <button type="submit">
+          <button
+            type="submit"
+            onClick={handleSendForm}
+            disabled={!isSend || input.length < 5}
+          >
             <img src="/img/callback/arrow.svg" alt="submit" />
           </button>
           {/* <input

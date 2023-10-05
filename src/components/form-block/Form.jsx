@@ -1,11 +1,23 @@
 import "./Form.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Form = () => {
   const [formData, setFormData] = useState({
     userName: "",
     userPhone: "+998",
   });
+
+  const [isSend, setIsSend] = useState(true);
+  const dayNow = new Date().getDate();
+
+  useEffect(() => {
+    const lastDay = localStorage.getItem("lastSentFormBottom");
+    if (dayNow == lastDay) setIsSend(false);
+  }, [isSend]);
+
+  function handleSendForm() {
+    localStorage.setItem("lastSentFormBottom", dayNow);
+  }
 
   const onChangeForm = (event) => {
     setFormData((prevFormData) => {
@@ -48,7 +60,17 @@ const Form = () => {
             className="form-input"
             required
           />
-          <input type="submit" value={"Отправить"} className="form-btn" />
+          <input
+            disabled={
+              !isSend ||
+              formData.userName.length < 3 ||
+              formData.userPhone.length < 8
+            }
+            type="submit"
+            value={"Отправить"}
+            className="form-btn"
+            onClick={handleSendForm}
+          />
         </form>
       </div>
       <div className="form-images">
