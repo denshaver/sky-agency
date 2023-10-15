@@ -1,32 +1,41 @@
+import { sendTelegram } from "../../api/sendMessageTelegram";
 import "./Form.css";
 import { useEffect, useState } from "react";
 
 const Form = () => {
+  const [canSend, setCanSend] = useState(false);
   const [formData, setFormData] = useState({
     userName: "",
-    userPhone: "+998",
+    userPhone: "+988",
   });
 
-  const [isSend, setIsSend] = useState(true);
-  const dayNow = new Date().getDate();
-
-  useEffect(() => {
-    const lastDay = localStorage.getItem("lastSentFormBottom");
-    if (dayNow == lastDay) setIsSend(false);
-  }, [isSend]);
-
-  function handleSendForm() {
-    localStorage.setItem("lastSentFormBottom", dayNow);
-  }
-
-  const onChangeForm = (event) => {
+  const onChangeForm = (event, value) => {
     setFormData((prevFormData) => {
       return {
         ...prevFormData,
-        [event.target.id]: event.target.value,
+        [event.target.id]: value,
       };
     });
   };
+
+  const checkNameInput = () => {
+    const nameArr = formData.userName.split("");
+    const spaces = nameArr.filter((str) => str === " ");
+    if (spaces.length > 1) return true;
+    return false;
+  };
+
+  useEffect(() => {
+    if (
+      formData.userName.length < 3 ||
+      formData.userPhone.length < 8 ||
+      checkNameInput()
+    ) {
+      setCanSend(true);
+    } else {
+      setCanSend(false);
+    }
+  }, [formData]);
 
   return (
     <div className="wrapper form-wrapper" id="form-block">
@@ -39,14 +48,28 @@ const Form = () => {
           Свяжитесь с нами и мы обсудим как эффективно <br /> привлекать больше
           клиентов в ваш бизнес
         </p>
-        <form action="./telegram.php" method="POST">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            sendTelegram(
+              `Заявка.
+Имя: ${formData.userName}.
+Телефон: ${formData.userPhone}`
+            );
+            alert("Заявка успешно отправлена. Мы скоро свяжемся с вами");
+            setFormData({
+              userName: "",
+              userPhone: "+988",
+            });
+          }}
+        >
           <input
             type="text"
             id="userName"
             name="user-name"
             placeholder="Введите Имя и Фамилию"
             value={formData.userName}
-            onChange={(e) => onChangeForm(e)}
+            onChange={(e) => onChangeForm(e, e.target.value)}
             className="form-input"
             required
           />
@@ -56,20 +79,17 @@ const Form = () => {
             name="user-phone"
             value={formData.userPhone}
             placeholder="Введите номер телефона"
-            onChange={(e) => onChangeForm(e)}
+            onChange={(e) =>
+              onChangeForm(e, e.target.value.replace(/[^+\d]/g, ""))
+            }
             className="form-input"
             required
           />
           <input
-            disabled={
-              !isSend ||
-              formData.userName.length < 3 ||
-              formData.userPhone.length < 8
-            }
+            disabled={canSend}
             type="submit"
             value={"Отправить"}
             className="form-btn"
-            onClick={handleSendForm}
           />
         </form>
       </div>
