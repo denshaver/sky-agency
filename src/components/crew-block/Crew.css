@@ -37,15 +37,6 @@
   animation: marquee 120s linear infinite;
 }
 
-.container-img {
-  width: 200%;
-  display: flex;
-  align-items: center;
-  gap: 15.7rem;
-  /* overflow-x: scroll; */
-  animation: marquee 120s linear infinite;
-}
-
 .crew-item {
   display: flex;
   flex-direction: column;
@@ -61,15 +52,6 @@
   font-size: 4rem;
   line-height: 112%;
   text-transform: uppercase;
-}
-
-.container-img {
-  width: 200%;
-  display: flex;
-  align-items: center;
-  gap: 15.7rem;
-  /* overflow-x: scroll; */
-  animation: marquee 120s linear infinite;
 }
 
 @keyframes marquee {
