@@ -1,3 +1,4 @@
+import { FacebookFill, InstagramFill, TelegramFill } from "akar-icons";
 import "./Footer.css";
 
 const Footer = () => {
@@ -7,13 +8,24 @@ const Footer = () => {
         <footer>
           <div className="footer-left">
             <div className="footer-links">
-              <img src="/img/footer/fb.svg" alt="smm" className="cp" />
-              <a href="https://www.instagram.com/skyagencyuz/">
-                <img src="/img/footer/inst.svg" alt="smm" className="cp" />
+              <a
+                href="https://www.instagram.com/skyagencyuz/"
+                className="social-media-anchor"
+              >
+                <InstagramFill strokeWidth={2} size={32} className="cp" />
               </a>
-              <img src="/img/footer/tw.svg" alt="smm" className="cp" />
-              <img src="/img/footer/gh.svg" alt="smm" className="cp" />
-              <img src="/img/footer/dr.svg" alt="smm" className="cp" />
+              <a
+                href="https://t.me/skyagencyuzb"
+                className="social-media-anchor"
+              >
+                <TelegramFill strokeWidth={2} size={32} className="cp" />
+              </a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100084195307094"
+                className="social-media-anchor"
+              >
+                <FacebookFill strokeWidth={2} size={32} className="cp" />
+              </a>
             </div>
             <p>
               Мир безграничных идей и новых высот где каждый может воплотить

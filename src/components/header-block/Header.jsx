@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { FacebookFill, InstagramFill, TelegramFill } from "akar-icons";
 
 const Header = ({ setSideNavWidth }) => {
   return (
@@ -18,21 +19,40 @@ const Header = ({ setSideNavWidth }) => {
               alt="Logo"
               className="header-logo"
             />
-            <span className="header-action cp">Связаться с нами</span>
+            <a
+              className="header-action cp social-media-anchor"
+              href="#form-block"
+            >
+              Связаться с нами
+            </a>
           </header>
           <div className="header-main-container">
             <div className="header-main-left">
               <img src="/img/header/socialmedia.svg" alt="social media" />
               <div className="header-main-divider"></div>
               <div className="social-media">
-                <img src="/img/header/fb.svg" alt="Facebook" className="cp" />
-                <img src="/img/header/tw.svg" alt="Twitter" className="cp" />
-                <img src="/img/header/gh.svg" alt="GitHub" className="cp" />
-                <img src="/img/header/dr.svg" alt="Drrrible" className="cp" />
+                <a
+                  href="https://www.instagram.com/skyagencyuz/"
+                  className="social-media-anchor"
+                >
+                  <InstagramFill strokeWidth={2} size={20} className="cp" />
+                </a>
+                <a
+                  href="https://t.me/skyagencyuzb"
+                  className="social-media-anchor"
+                >
+                  <TelegramFill strokeWidth={2} size={20} className="cp" />
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100084195307094"
+                  className="social-media-anchor"
+                >
+                  <FacebookFill strokeWidth={2} size={20} className="cp" />
+                </a>
               </div>
             </div>
             <div className="header-main">
-              <h1>Ответь на 4 вопроса</h1>
+              <h1>Ответь на 6 вопросов</h1>
               <h2>
                 и получи стратегию <br /> по продвижению на 2023 год
               </h2>

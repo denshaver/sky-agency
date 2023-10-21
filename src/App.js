@@ -7,11 +7,12 @@ import Brands from "./components/brands-block/Brands";
 import Crew from "./components/crew-block/Crew";
 import Form from "./components/form-block/Form";
 import SideNav from "./components/sidenav-block/SideNav";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Footer from "./components/footer-block/Footer";
 
 function App() {
   const [sideNavWidth, setSideNavWidth] = useState(false);
+
   return (
     <div className="container">
       <SideNav sideNavWidth={sideNavWidth} setSideNavWidth={setSideNavWidth} />

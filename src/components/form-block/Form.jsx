@@ -1,6 +1,6 @@
 import { sendTelegram } from "../../api/sendMessageTelegram";
 import "./Form.css";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Form = () => {
   const [canSend, setCanSend] = useState(false);
@@ -8,6 +8,12 @@ const Form = () => {
     userName: "",
     userPhone: "+988",
   });
+
+  const formRef = useRef(null);
+
+  const scrollToForm = () => {
+    formRef.current?.scrollIntoView();
+  };
 
   const onChangeForm = (event, value) => {
     setFormData((prevFormData) => {
@@ -37,9 +43,15 @@ const Form = () => {
     }
   }, [formData]);
 
+  useEffect(() => {
+    if (window.location.href.includes("form-navigate")) {
+      formRef.current?.scrollIntoView();
+    }
+  });
+
   return (
     <div className="wrapper form-wrapper" id="form-block">
-      <div className="form">
+      <div className="form" ref={formRef}>
         <span>Оффер</span>
         <h2>
           не знаете <br /> что выбрать?

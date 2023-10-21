@@ -131,6 +131,11 @@ header {
   border-bottom: 2px solid #ffffff;
 }
 
+.social-media-anchor {
+  color: white;
+  text-decoration: none;
+}
+
 /* SMALLER DESKTOPS */
 
 @media (max-width: 1450px) {
